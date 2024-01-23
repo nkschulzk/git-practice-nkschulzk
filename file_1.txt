@@ -1,1 +1,2 @@
 This is my first file
+Open file_1.txt and add a line of text to the file (anything you want)
