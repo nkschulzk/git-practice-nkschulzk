@@ -1,0 +1,1 @@
+This is the readme file for the STAT 386 homework I am doing
