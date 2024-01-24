@@ -1,0 +1,200 @@
+    7  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    8  git init
+    9  git branch
+   10  git init
+   11  git config --global user.name “Nels Schulzke”
+   12  git config --global user.email “nkschulzk@gmail.com”
+   13  git -- version
+   14  git --version
+   15  git config --global core.editor “code --wait"\ngit --version\n"no"\nno"
+   17  git init
+   22  git init
+   23  git global --user.email
+   24  git --help
+   25  git config --list
+   26  git config --global core.editor “code" --wait\n"
+   27  git config --list
+   28  git config --global core.editor “code --wait"\n"
+   29  git config --global core.editor "code --wait"
+   30  git config --list
+   31  git config --global init.defautlBranch main
+   34  git config --list
+   35  mkdir git-practice-esnt
+   37  cd git-practice-esnt
+   38  git init
+   41  rm -rf .git
+   43  cd git-practice-esnt
+   45  git status
+   46  git add file1.txt
+   47  git status
+   48  git commit
+   49  git status
+   50  git commit -m "First Commit"
+   51  git log
+   52  code .gitignore
+   54  .git
+   58  git status
+   63  git-practice-esnt
+   64  git status
+   65  cd git-practice-esnt
+   66  git status
+   67  code .gitignore
+   68  .gitignore
+   69  .git ignore
+   70  git
+   71  git init
+   72  .gitignore
+   73  git branch
+   74  git branch tester
+   75  git branch
+   76  git switch tester
+   77  git branch
+   78  git switch -c subtester
+   79  git branch
+   82  git switch main
+   88  git status
+   89  git remote add origin git@github.com:nkschulzk/nks-git-practice-STAT386.git
+   90  git remote rm
+   91  git remote rm git@github.com:nkschulzk/nks-git-practice-STAT386.git
+   96  cd git-practice-esnt
+   97  git add origin git@github.com:nkschulzk/nks-git-practice-STAT386.git
+   98  git remote add origin git@github.com:nkschulzk/nks-git-practice-STAT386.git
+   99  git remote -v
+  100  git push - u origin main
+  101  git push -u origin main
+  102  git status
+  106  git status
+  107  git add text_1
+  108  git status
+  109  git commit -m it is wild
+  110  git commitgit commit -m "this is wild"
+  111  git commit -m "wild"
+  112  git status
+  114  git push
+  138  mkdir git-practice-nkschulzk
+  139  cd git-practice-nkschulzk
+  140  git init
+  142  git status
+  144  git status
+  146  cd git-practice-nkschulzk
+  149  git status
+  150  git add file_1.txt
+  151  git add file_2.txt
+  152  git status
+  153  git commit -m "create new files"
+  154  git status
+  155  git log
+  156  git status
+  157  git commit file_1.txt
+  158  git commit file_1.txt -m "just file 1"
+  159  git status
+  160  git commit file_2.txt -m "just file 2"
+  161  git status
+  162  git log
+  164  git add Readme.md
+  165  git commit -m "readme too"
+  166  git log
+  167  touch .gitignore
+  169  cd .gitignore
+  170  touch .gitignore.txt
+  172  rm .gitignore.txt
+  174  nano .gitignore
+  177  rm .gitignore?
+  179  git status
+  180  rm .gitignore
+  181  touch .gitignore.txt
+  183  git add .gitignore.txt
+  184  git status
+  185  git commit -m "ignore that stuff"
+  186  git status
+  187  git status
+  188  git switch -c features
+  189  git log
+  190  git merge main
+  191  git status
+  192  git commit -m "merging that stuff"
+  193  git log
+  194  git status
+  195  git add file_1.txt
+  196  git commit -m "adding the other line for merging\n"
+  197  git log
+  198  git status
+  199  git log
+  200  git switch main
+  201  git log
+  202  git switch features
+  204  git add new_features.txt
+  205  git commit -m "add empty file"
+  206  git switch main
+  207  git ls -la
+  209  git switch features
+  211  git switch main
+  212  git switch features
+  213  git merge main
+  214  git switch
+  215  git switch main
+  216  git commit -m "test commit for the conflict"
+  217  git add new_features.txt
+  218  git commit -m "test commit"
+  219  git merge main
+  220  git merge main
+  221  git switch geatures
+  222  git switch features
+  223  git switch main
+  224  git status
+  225  git log
+  226  git switch main
+  227  git commit -m "features commit from features branch"
+  228  git add new_features.txt
+  229  git commit -m "again"
+  230  git log
+  231  git switch main
+  232  git status
+  233  git add file_1.txt
+  234  git commit -m "file_1 conflict"
+  235  git merge features
+  236  git commit -m "resolved?"
+  237  git status
+  238  git log
+  239  git remote add origin git@github.com:nkschulzk/git-practice-nkschulzk.git
+  240  git push -u origin main
+  241  git clone https://github.com/nkschulzk/git-practice-tatesm.git
+  243  rm git-practice-tatesm
+  249  cd git-practice-tatesm
+  250  git status
+  251  git branch -c feature-nkschulzk
+  252  git log
+  253  git touch new_file_for_nels.txt
+  256  git log
+  258  git switch feature-nkschulzk
+  260  git add new_nels_file.txt
+  261  git status
+  262  git commit -m "new file for Nels"
+  263  git push origin feature-nkschulzk
+  264  git push origin feature-nkschulzk 
+  265  git push origin feature-nkschulzk 
+  266  git push origin feature-nkschulzk 
+  267  git push origin feature-nkschulzk 
+  268  git push origin feature-nkschulzk 
+  269  git push origin feature-nkschulzk 
+  270  git push origin feature-nkschulzk 
+  271  git push origin feature-nkschulzk 
+  272  git push origin feature-nkschulzk 
+  274  git clone git@github.com:nkschulzk/git-practice-tatesm.git
+  275  git clone git@github.com:nkschulzk/git-practice-tatesm.git
+  276  cd git-practice-tatesm
+  277  git log
+  278  git branch -c feature-nkschulzk
+  279  git log
+  280  git switch feature-nkschulzk
+  282  git add nels-file.txt
+  283  git commit -m "nels update"
+  284  git push origin feature-nkschulzk
+  285  git pull
+  287  git log
+  288  cd git-practice-tatesm
+  289  git log
+  291  cd git-practice-nkschulzk
+  292  git pull
+  293  git log
+  294  git log --oneline > gitlog.txt

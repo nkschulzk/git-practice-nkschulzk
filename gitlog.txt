@@ -1,0 +1,15 @@
+36aaf69 Merge pull request #2 from connerdrake98/feature-connerdrake98
+4052e38 added new features (conner)
+931e724 Merge pull request #1 from tatesm/feature-tatesm
+600b405 new file added tate
+ba57aaf resolved?
+6bcf924 file_1 conflict
+8064c01 again
+87a9f50 test commit
+b948fc7 add empty file
+d3250f4 adding the other line for merging
+1a6a9f3 ignore that stuff
+7927131 readme too
+bfa6f7b just file 2
+5e2edf7 just file 1
+d792774 create new files
